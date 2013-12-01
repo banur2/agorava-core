@@ -19,14 +19,14 @@ package org.agorava.api.function;
 import java.io.Serializable;
 
 /**
- * Provides <type>int</type> id to implementations
+ * Provides <type>long</type> id to implementations
  *
  * @author Werner Keil
  */
-public interface IntIdentifiable extends Serializable {
+public interface LongIdentifiable extends Serializable {
 	// TODO for Java 8 consider this a functional interface
     /**
      * @return a unique id
      */
-    int getId();
+    long getId();
 }

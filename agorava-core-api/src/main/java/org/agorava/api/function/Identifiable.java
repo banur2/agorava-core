@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.agorava.api.storage;
+package org.agorava.api.function;
 
 import java.io.Serializable;
 
@@ -25,8 +25,6 @@ import java.io.Serializable;
  * @author Werner Keil
  */
 public interface Identifiable extends Serializable {
-	// FIXME this should be relocated into a package like org.agorava.api.function together with Nameable,...
-	
 	// TODO for Java 8 consider this a functional interface
     /**
      * @return a unique id
