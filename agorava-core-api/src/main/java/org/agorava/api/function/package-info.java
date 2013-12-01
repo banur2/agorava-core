@@ -14,22 +14,9 @@
  * limitations under the License.
  */
 
-package org.agorava.api.storage;
-
-import java.io.Serializable;
 
 /**
- * Provides String id to implementations
- *
- * @author Antoine Sabot-Durand
+ * This package contains functional API for Agorava
  * @author Werner Keil
  */
-public interface Identifiable extends Serializable {
-	// FIXME this should be relocated into a package like org.agorava.api.function together with Nameable,...
-	
-	// TODO for Java 8 consider this a functional interface
-    /**
-     * @return a unique id
-     */
-    String getId();
-}
+package org.agorava.api.function;

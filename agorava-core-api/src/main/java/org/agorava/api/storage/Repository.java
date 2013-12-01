@@ -26,7 +26,7 @@ import java.util.Collection;
  * @author Antoine Sabot-Durand
  */
 public interface Repository<T extends Identifiable> extends Serializable, Iterable<T> {
-
+// TODO for Java 8 also add some functional interface on top...?
     /**
      * @return the current element
      */
